@@ -1,1 +1,2 @@
-cat /etc/passwd /etc/hosts\n
+#!/bin/bash
+cat /etc/passwd /etc/hosts
