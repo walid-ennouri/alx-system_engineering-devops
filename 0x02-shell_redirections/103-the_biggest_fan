@@ -1,0 +1,2 @@
+#!/bin/bash
+awk 'NR>1 {count[$1]++} END {for (i in count) print i, count[i]}' FS="\t" "$@" | sort -k2 -nr | head -n 11 | cut -d" " -f1
