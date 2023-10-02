@@ -1,0 +1,1 @@
+ls -lt | awk 'NR <= 10 {print $0}'\n
