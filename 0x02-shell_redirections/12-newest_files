@@ -1,1 +1,2 @@
-ls -lt | awk 'NR <= 10 {print $0}'\n
+#!/bin/bash
+ls -t1 | head -n 10
